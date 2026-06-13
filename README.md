@@ -46,7 +46,7 @@ O aplicativo foi estruturado para tratar todos os cenários de decisão do usuá
    `git clone https://github.com/IanCorrea19/atividade-permissoes-mobile-ianvieira.git`
 2. Abrir o projeto no Android Studio.
 3. Aguardar a sincronização do Gradle.
-4. Executar em emulador ou dispositivo físico. *(Atenção: No emulador, certifique-se de ativar o microfone no menu lateral em Extended Controls > Microphone > Virtual microphone uses host audio input).*
+4. Executar em emulador ou dispositivo físico. *(Atenção: No emulador, certifique-se de ativar o microfone no menu lateral em Extended Controls > Microphone > Enable Host Microphone Access).*
 5. Testar a funcionalidade de API digitando uma palavra no campo de texto.
 6. Testar a funcionalidade que solicita permissão clicando no botão do microfone e falando uma palavra em inglês.
 

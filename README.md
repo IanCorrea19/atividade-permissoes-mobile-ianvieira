@@ -14,7 +14,7 @@ A funcionalidade original do miniapp era realizar consultas textuais na *Free Di
 ## Permissão Android utilizada
 - **Permissão escolhida:** `RECORD_AUDIO` (Microfone).
 - **Onde ela foi declarada no Manifest:** Na raiz do arquivo `AndroidManifest.xml`, utilizando a tag `<uses-permission>`.
-- trecho: '''<uses-permission android:name="android.permission.RECORD_AUDIO" />'''
+- trecho: `<uses-permission android:name="android.permission.RECORD_AUDIO" />`.
 - **Por que essa permissão é necessária para o app:** Para utilizar o recurso `RecognizerIntent.ACTION_RECOGNIZE_SPEECH` da plataforma Android, que precisa escutar a voz do usuário em tempo real para transcrevê-la em texto e realizar a busca automatizada na API.
 - **Em qual momento do fluxo ela é solicitada ao usuário:** A permissão é solicitada em tempo de execução (*runtime permission*) exata e exclusivamente quando o usuário clica no botão de microfone pela primeira vez.
 

@@ -50,6 +50,18 @@ O aplicativo foi estruturado para tratar todos os cenários de decisão do usuá
 5. Testar a funcionalidade de API digitando uma palavra no campo de texto.
 6. Testar a funcionalidade que solicita permissão clicando no botão do microfone e falando uma palavra em inglês, preenchendo o campo e consultando automaticamente após a fala.
 
+
+## Solução de Problemas
+
+**Erro de Build no Windows (Caracteres não-ASCII no caminho):**
+Caso ocorra uma falha de compilação no Gradle com a mensagem `Your project path contains non-ASCII characters`, isso significa que o projeto foi clonado para uma pasta do Windows cujo caminho contém acentos ou caracteres especiais (ex: `C:\Users\Maria José\...`). O Gradle possui um bloqueio de segurança nativo para esses caminhos.
+
+**Como resolver:**
+* **Opção 1 (Recomendada):** Mova a pasta do projeto para um diretório limpo, sem espaços ou acentos no caminho (ex: `C:\ProjetosAndroid\`).
+* **Opção 2 (Correção via código):** Abra o arquivo `gradle.properties` (na raiz do projeto) e adicione a seguinte flag na última linha para forçar o Gradle a ignorar o alerta:
+  ```properties
+  android.overridePathCheck=true
+
 ## Prints do aplicativo
 
 ### 1. Tela Inicial e Novo Layout

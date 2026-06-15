@@ -50,3 +50,18 @@ O aplicativo foi estruturado para tratar todos os cenários de decisão do usuá
 5. Testar a funcionalidade de API digitando uma palavra no campo de texto.
 6. Testar a funcionalidade que solicita permissão clicando no botão do microfone e falando uma palavra em inglês, preenchendo o campo e consultando automaticamente após a fala.
 
+## Prints do aplicativo
+
+### 1. Tela Inicial e Novo Layout
+![Tela Inicial](prints/botao_microfone.png)
+
+### 2. Solicitação da Permissão em Execução
+![Solicitando Permissao](prints/requisicao_audio.png)
+
+### 3. Tratamento e Status das Permissões
+![Tratamento de Permissoes](prints/permissoes.png)
+
+### 4. Feedback e Resultado da Busca
+![Resultado ou Recusa](prints/resultado.png)
+
+Autor: Ian Vieira Corrêa -> Matrícula: 2589931
